@@ -1,0 +1,11 @@
+html {
+    font-family: sans-serif;
+}
+
+.countdown {
+    font-family: monospace;
+}
+
+.countdown span + span::before {
+    content: ' . ';
+}
