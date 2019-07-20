@@ -2,10 +2,12 @@ html {
     font-family: sans-serif;
 }
 
+count-down,
 .countdown {
     font-family: monospace;
 }
 
+count-down span + span::before,
 .countdown span + span::before {
     content: ' . ';
 }

@@ -1,4 +1,5 @@
 import countdown from './countdown';
+import './countdownElement';
 
 const $$ = (selector, context = document) => Array.from(context.querySelectorAll(selector));
 const clone = el => el.cloneNode();
